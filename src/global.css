@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+*{
+margin: 0;
+padding: 0;
+outline: 0;
+box-sizing: border-box;
+
+
+}
+body{
+
+    font:400 14px Roboto,sans-serif;
+     background: #1A829c;
+    -webkit-font-smothing: antialiased;
+}
+input,button,textarea{
+    font: 400 18px Roboto,sans-serif;
+    
+}button{
+cursor:poiter;
+
+}
+form input{
+width: 90%;
+height: 50px;
+color:#333;
+text-align:center ;
+border: 1px solid #dcdce6;
+border-radius: 12px;
+margin-block-end: 6px;
+padding:2 32px;
+}
+form textarea{
+    width: 90%;
+    resize: vertical;
+    min-height: 140px;
+    color: #333;
+   border: 1px solid #dcdce6 ;
+   border-radius: 12px ;
+   margin-block-end: 2px;
+   padding: 8px ;
+   
+    
+    }
+    section {
+        margin:0px 320px 10px 0;
+       
+    }
+.button{
+
+width: 90%;
+height: 55px;
+background: #e02041;
+border:0;
+border-radius: 18px;
+color:#fff;
+font-weight: 700;
+margin-top:8px ;
+display: inline-block;
+text-align:center ;
+text-decoration:none;
+font-size:16px;
+line-height: 43px;
+transition: filter 0.2s;
+}.button:hover{
+    filter: brightness(90%);
+}.back-link{
+    display:flex;
+    align-items:Center;
+    margin-top: 30px;
+    color:#e62c1e;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.2s;
+
+}
+.back-link svg{
+    margin-right:8px ;
+
+}.back-link :hover{
+    opacity: 0.8;
+}
